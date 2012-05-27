@@ -1,0 +1,901 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+      body {
+      	font:normal 68% verdana,arial,helvetica;
+      	color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+      	font-weight: bold;
+      	text-align:left;
+      	background:#a6caf0;
+      }
+      table.details tr td{
+      	background:#eeeee0;
+      }
+      
+      p {
+      	line-height:1.5em;
+      	margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+      	margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+      	margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+      	margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+      	margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+      	margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+      	margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+      	font-weight:bold; color:red;
+      }
+      .Failure {
+      	font-weight:bold; color:purple;
+      }
+      .Properties {
+      	text-align:right;
+      }
+      </style>
+<script language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['test.evaluador.Lexico.TestParser'] = new Array();
+  	
+        cur['ant.core.lib'] = 'C:\\Ant\\lib\\ant.jar';
+  	
+        cur['ant.file'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.Practica2'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.type'] = 'file';
+  	
+        cur['ant.file.type.Practica2'] = 'file';
+  	
+        cur['ant.home'] = 'C:\\Ant';
+  	
+        cur['ant.java.version'] = '1.7';
+  	
+        cur['ant.library.dir'] = 'C:\\Ant\\lib';
+  	
+        cur['ant.project.default-target'] = 'reportTODO';
+  	
+        cur['ant.project.invoked-targets'] = 'reportTODO';
+  	
+        cur['ant.project.name'] = 'Practica2';
+  	
+        cur['ant.version'] = 'Apache Ant(TM) version 1.8.4 compiled on May 22 2012';
+  	
+        cur['app.name'] = 'evaluador';
+  	
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+  	
+        cur['basedir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['build.dir'] = 'build/';
+  	
+        cur['build.style'] = 'etc/xsl';
+  	
+        cur['file.encoding'] = 'Cp1252';
+  	
+        cur['file.encoding.pkg'] = 'sun.io';
+  	
+        cur['file.separator'] = '\\';
+  	
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+  	
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+  	
+        cur['java.class.path'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\testclasses;C:\\JUnit\\junit-4.11.jar;C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\lib\\evaluador.jar;C:\\JUnit;C:\\Ant\\lib\\junit-4.8.1.jar;C:\\Ant\\lib\\ant-launcher.jar;C:\\Ant\\lib\\ant.jar;C:\\Ant\\lib\\ant-junit.jar;C:\\Ant\\lib\\ant-junit4.jar';
+  	
+        cur['java.class.version'] = '51.0';
+  	
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\endorsed';
+  	
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+  	
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre';
+  	
+        cur['java.io.tmpdir'] = 'C:\\Users\\Kaba\\AppData\\Local\\Temp\\';
+  	
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\jsbuilder;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\bin;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\SenchaSDKTools-2.0.0-Beta\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Autodesk\\Alias2011\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\MATLAB\\R2009a\\bin;C:\\Program Files\\MATLAB\\R2009a\\bin\\win64;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\Java\\jdk1.7.0_03\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\;C:\\Users\\Kaba\\Desktop\\Teleco\\mongodb-win32-x86_64-2.0.4\\bin;C:\\Program Files\\nodejs\\node_modules;C:\\Users\\Kaba\\node_modules\\.bin;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Users\\Kaba\\node_modules\\spark2\\bin; C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;C:\\Ant\\bin;C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;.';
+  	
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+  	
+        cur['java.runtime.version'] = '1.7.0_03-b05';
+  	
+        cur['java.specification.name'] = 'Java Platform API Specification';
+  	
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.specification.version'] = '1.7';
+  	
+        cur['java.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+  	
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+  	
+        cur['java.version'] = '1.7.0_03';
+  	
+        cur['java.vm.info'] = 'mixed mode';
+  	
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+  	
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+  	
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.specification.version'] = '1.7';
+  	
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.version'] = '22.1-b02';
+  	
+        cur['javadoc.dir'] = 'doc';
+  	
+        cur['junit'] = 'C:/JUnit/junit-4.11.jar';
+  	
+        cur['line.separator'] = '
+';
+  	
+        cur['os.arch'] = 'amd64';
+  	
+        cur['os.name'] = 'Windows 7';
+  	
+        cur['os.version'] = '6.1';
+  	
+        cur['path.separator'] = ';';
+  	
+        cur['report.dir'] = 'reports';
+  	
+        cur['src.test'] = 'src';
+  	
+        cur['sun.arch.data.model'] = '64';
+  	
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\classes';
+  	
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin';
+  	
+        cur['sun.cpu.endian'] = 'little';
+  	
+        cur['sun.cpu.isalist'] = 'amd64';
+  	
+        cur['sun.desktop'] = 'windows';
+  	
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+  	
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Lexico.TestParser filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\reports\\TEST-test.evaluador.Lexico.TestParser.xml crashfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junitvmwatcher75290547504549006.properties propsfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junit3270687171652805009.properties';
+  	
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+  	
+        cur['sun.jnu.encoding'] = 'Cp1252';
+  	
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+  	
+        cur['sun.os.patch.level'] = '';
+  	
+        cur['test.dir'] = 'build/testclasses';
+  	
+        cur['user.country'] = 'ES';
+  	
+        cur['user.dir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['user.home'] = 'C:\\Users\\Kaba';
+  	
+        cur['user.language'] = 'es';
+  	
+        cur['user.name'] = 'Kaba';
+  	
+        cur['user.script'] = '';
+  	
+        cur['user.timezone'] = '';
+  	
+        cur['user.variant'] = '';
+  	
+    cur = TestCases['test.evaluador.Sintaxis.TestAST'] = new Array();
+  	
+        cur['ant.core.lib'] = 'C:\\Ant\\lib\\ant.jar';
+  	
+        cur['ant.file'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.Practica2'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.type'] = 'file';
+  	
+        cur['ant.file.type.Practica2'] = 'file';
+  	
+        cur['ant.home'] = 'C:\\Ant';
+  	
+        cur['ant.java.version'] = '1.7';
+  	
+        cur['ant.library.dir'] = 'C:\\Ant\\lib';
+  	
+        cur['ant.project.default-target'] = 'reportTODO';
+  	
+        cur['ant.project.invoked-targets'] = 'reportTODO';
+  	
+        cur['ant.project.name'] = 'Practica2';
+  	
+        cur['ant.version'] = 'Apache Ant(TM) version 1.8.4 compiled on May 22 2012';
+  	
+        cur['app.name'] = 'evaluador';
+  	
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+  	
+        cur['basedir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['build.dir'] = 'build/';
+  	
+        cur['build.style'] = 'etc/xsl';
+  	
+        cur['file.encoding'] = 'Cp1252';
+  	
+        cur['file.encoding.pkg'] = 'sun.io';
+  	
+        cur['file.separator'] = '\\';
+  	
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+  	
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+  	
+        cur['java.class.path'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\testclasses;C:\\JUnit\\junit-4.11.jar;C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\lib\\evaluador.jar;C:\\JUnit;C:\\Ant\\lib\\junit-4.8.1.jar;C:\\Ant\\lib\\ant-launcher.jar;C:\\Ant\\lib\\ant.jar;C:\\Ant\\lib\\ant-junit.jar;C:\\Ant\\lib\\ant-junit4.jar';
+  	
+        cur['java.class.version'] = '51.0';
+  	
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\endorsed';
+  	
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+  	
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre';
+  	
+        cur['java.io.tmpdir'] = 'C:\\Users\\Kaba\\AppData\\Local\\Temp\\';
+  	
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\jsbuilder;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\bin;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\SenchaSDKTools-2.0.0-Beta\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Autodesk\\Alias2011\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\MATLAB\\R2009a\\bin;C:\\Program Files\\MATLAB\\R2009a\\bin\\win64;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\Java\\jdk1.7.0_03\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\;C:\\Users\\Kaba\\Desktop\\Teleco\\mongodb-win32-x86_64-2.0.4\\bin;C:\\Program Files\\nodejs\\node_modules;C:\\Users\\Kaba\\node_modules\\.bin;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Users\\Kaba\\node_modules\\spark2\\bin; C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;C:\\Ant\\bin;C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;.';
+  	
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+  	
+        cur['java.runtime.version'] = '1.7.0_03-b05';
+  	
+        cur['java.specification.name'] = 'Java Platform API Specification';
+  	
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.specification.version'] = '1.7';
+  	
+        cur['java.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+  	
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+  	
+        cur['java.version'] = '1.7.0_03';
+  	
+        cur['java.vm.info'] = 'mixed mode';
+  	
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+  	
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+  	
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.specification.version'] = '1.7';
+  	
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.version'] = '22.1-b02';
+  	
+        cur['javadoc.dir'] = 'doc';
+  	
+        cur['junit'] = 'C:/JUnit/junit-4.11.jar';
+  	
+        cur['line.separator'] = '
+';
+  	
+        cur['os.arch'] = 'amd64';
+  	
+        cur['os.name'] = 'Windows 7';
+  	
+        cur['os.version'] = '6.1';
+  	
+        cur['path.separator'] = ';';
+  	
+        cur['report.dir'] = 'reports';
+  	
+        cur['src.test'] = 'src';
+  	
+        cur['sun.arch.data.model'] = '64';
+  	
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\classes';
+  	
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin';
+  	
+        cur['sun.cpu.endian'] = 'little';
+  	
+        cur['sun.cpu.isalist'] = 'amd64';
+  	
+        cur['sun.desktop'] = 'windows';
+  	
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+  	
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestAST filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\reports\\TEST-test.evaluador.Sintaxis.TestAST.xml crashfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junitvmwatcher8847855791370179750.properties propsfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junit1539168932218044972.properties';
+  	
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+  	
+        cur['sun.jnu.encoding'] = 'Cp1252';
+  	
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+  	
+        cur['sun.os.patch.level'] = '';
+  	
+        cur['test.dir'] = 'build/testclasses';
+  	
+        cur['user.country'] = 'ES';
+  	
+        cur['user.dir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['user.home'] = 'C:\\Users\\Kaba';
+  	
+        cur['user.language'] = 'es';
+  	
+        cur['user.name'] = 'Kaba';
+  	
+        cur['user.script'] = '';
+  	
+        cur['user.timezone'] = '';
+  	
+        cur['user.variant'] = '';
+  	
+    cur = TestCases['test.evaluador.Sintaxis.TestEval'] = new Array();
+  	
+        cur['ant.core.lib'] = 'C:\\Ant\\lib\\ant.jar';
+  	
+        cur['ant.file'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.Practica2'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.type'] = 'file';
+  	
+        cur['ant.file.type.Practica2'] = 'file';
+  	
+        cur['ant.home'] = 'C:\\Ant';
+  	
+        cur['ant.java.version'] = '1.7';
+  	
+        cur['ant.library.dir'] = 'C:\\Ant\\lib';
+  	
+        cur['ant.project.default-target'] = 'reportTODO';
+  	
+        cur['ant.project.invoked-targets'] = 'reportTODO';
+  	
+        cur['ant.project.name'] = 'Practica2';
+  	
+        cur['ant.version'] = 'Apache Ant(TM) version 1.8.4 compiled on May 22 2012';
+  	
+        cur['app.name'] = 'evaluador';
+  	
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+  	
+        cur['basedir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['build.dir'] = 'build/';
+  	
+        cur['build.style'] = 'etc/xsl';
+  	
+        cur['file.encoding'] = 'Cp1252';
+  	
+        cur['file.encoding.pkg'] = 'sun.io';
+  	
+        cur['file.separator'] = '\\';
+  	
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+  	
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+  	
+        cur['java.class.path'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\testclasses;C:\\JUnit\\junit-4.11.jar;C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\lib\\evaluador.jar;C:\\JUnit;C:\\Ant\\lib\\junit-4.8.1.jar;C:\\Ant\\lib\\ant-launcher.jar;C:\\Ant\\lib\\ant.jar;C:\\Ant\\lib\\ant-junit.jar;C:\\Ant\\lib\\ant-junit4.jar';
+  	
+        cur['java.class.version'] = '51.0';
+  	
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\endorsed';
+  	
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+  	
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre';
+  	
+        cur['java.io.tmpdir'] = 'C:\\Users\\Kaba\\AppData\\Local\\Temp\\';
+  	
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\jsbuilder;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\bin;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\SenchaSDKTools-2.0.0-Beta\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Autodesk\\Alias2011\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\MATLAB\\R2009a\\bin;C:\\Program Files\\MATLAB\\R2009a\\bin\\win64;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\Java\\jdk1.7.0_03\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\;C:\\Users\\Kaba\\Desktop\\Teleco\\mongodb-win32-x86_64-2.0.4\\bin;C:\\Program Files\\nodejs\\node_modules;C:\\Users\\Kaba\\node_modules\\.bin;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Users\\Kaba\\node_modules\\spark2\\bin; C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;C:\\Ant\\bin;C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;.';
+  	
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+  	
+        cur['java.runtime.version'] = '1.7.0_03-b05';
+  	
+        cur['java.specification.name'] = 'Java Platform API Specification';
+  	
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.specification.version'] = '1.7';
+  	
+        cur['java.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+  	
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+  	
+        cur['java.version'] = '1.7.0_03';
+  	
+        cur['java.vm.info'] = 'mixed mode';
+  	
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+  	
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+  	
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.specification.version'] = '1.7';
+  	
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.version'] = '22.1-b02';
+  	
+        cur['javadoc.dir'] = 'doc';
+  	
+        cur['junit'] = 'C:/JUnit/junit-4.11.jar';
+  	
+        cur['line.separator'] = '
+';
+  	
+        cur['os.arch'] = 'amd64';
+  	
+        cur['os.name'] = 'Windows 7';
+  	
+        cur['os.version'] = '6.1';
+  	
+        cur['path.separator'] = ';';
+  	
+        cur['report.dir'] = 'reports';
+  	
+        cur['src.test'] = 'src';
+  	
+        cur['sun.arch.data.model'] = '64';
+  	
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\classes';
+  	
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin';
+  	
+        cur['sun.cpu.endian'] = 'little';
+  	
+        cur['sun.cpu.isalist'] = 'amd64';
+  	
+        cur['sun.desktop'] = 'windows';
+  	
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+  	
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestEval filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\reports\\TEST-test.evaluador.Sintaxis.TestEval.xml crashfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junitvmwatcher6866222349553930433.properties propsfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junit7940227436036871749.properties';
+  	
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+  	
+        cur['sun.jnu.encoding'] = 'Cp1252';
+  	
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+  	
+        cur['sun.os.patch.level'] = '';
+  	
+        cur['test.dir'] = 'build/testclasses';
+  	
+        cur['user.country'] = 'ES';
+  	
+        cur['user.dir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['user.home'] = 'C:\\Users\\Kaba';
+  	
+        cur['user.language'] = 'es';
+  	
+        cur['user.name'] = 'Kaba';
+  	
+        cur['user.script'] = '';
+  	
+        cur['user.timezone'] = '';
+  	
+        cur['user.variant'] = '';
+  	
+    cur = TestCases['test.evaluador.TestEvaluador'] = new Array();
+  	
+        cur['ant.core.lib'] = 'C:\\Ant\\lib\\ant.jar';
+  	
+        cur['ant.file'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.Practica2'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build.xml';
+  	
+        cur['ant.file.type'] = 'file';
+  	
+        cur['ant.file.type.Practica2'] = 'file';
+  	
+        cur['ant.home'] = 'C:\\Ant';
+  	
+        cur['ant.java.version'] = '1.7';
+  	
+        cur['ant.library.dir'] = 'C:\\Ant\\lib';
+  	
+        cur['ant.project.default-target'] = 'reportTODO';
+  	
+        cur['ant.project.invoked-targets'] = 'reportTODO';
+  	
+        cur['ant.project.name'] = 'Practica2';
+  	
+        cur['ant.version'] = 'Apache Ant(TM) version 1.8.4 compiled on May 22 2012';
+  	
+        cur['app.name'] = 'evaluador';
+  	
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+  	
+        cur['basedir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['build.dir'] = 'build/';
+  	
+        cur['build.style'] = 'etc/xsl';
+  	
+        cur['file.encoding'] = 'Cp1252';
+  	
+        cur['file.encoding.pkg'] = 'sun.io';
+  	
+        cur['file.separator'] = '\\';
+  	
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+  	
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+  	
+        cur['java.class.path'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\testclasses;C:\\JUnit\\junit-4.11.jar;C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\build\\lib\\evaluador.jar;C:\\JUnit;C:\\Ant\\lib\\junit-4.8.1.jar;C:\\Ant\\lib\\ant-launcher.jar;C:\\Ant\\lib\\ant.jar;C:\\Ant\\lib\\ant-junit.jar;C:\\Ant\\lib\\ant-junit4.jar';
+  	
+        cur['java.class.version'] = '51.0';
+  	
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\endorsed';
+  	
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+  	
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre';
+  	
+        cur['java.io.tmpdir'] = 'C:\\Users\\Kaba\\AppData\\Local\\Temp\\';
+  	
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\jsbuilder;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK\\bin;C:\\Users\\Kaba\\Desktop\\Teleco\\Sencha 2.0 SDK;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\SenchaSDKTools-2.0.0-Beta\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Autodesk\\Alias2011\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\MATLAB\\R2009a\\bin;C:\\Program Files\\MATLAB\\R2009a\\bin\\win64;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\Java\\jdk1.7.0_03\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\;C:\\Users\\Kaba\\Desktop\\Teleco\\mongodb-win32-x86_64-2.0.4\\bin;C:\\Program Files\\nodejs\\node_modules;C:\\Users\\Kaba\\node_modules\\.bin;C:\\Users\\Kaba\\AppData\\Roaming\\npm;C:\\Users\\Kaba\\node_modules\\spark2\\bin; C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;C:\\Ant\\bin;C:\\Program Files\\Apache Software Foundation\\apache-maven-3.0.4\\bin;.';
+  	
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+  	
+        cur['java.runtime.version'] = '1.7.0_03-b05';
+  	
+        cur['java.specification.name'] = 'Java Platform API Specification';
+  	
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.specification.version'] = '1.7';
+  	
+        cur['java.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+  	
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+  	
+        cur['java.version'] = '1.7.0_03';
+  	
+        cur['java.vm.info'] = 'mixed mode';
+  	
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+  	
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+  	
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.specification.version'] = '1.7';
+  	
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+  	
+        cur['java.vm.version'] = '22.1-b02';
+  	
+        cur['javadoc.dir'] = 'doc';
+  	
+        cur['junit'] = 'C:/JUnit/junit-4.11.jar';
+  	
+        cur['line.separator'] = '
+';
+  	
+        cur['os.arch'] = 'amd64';
+  	
+        cur['os.name'] = 'Windows 7';
+  	
+        cur['os.version'] = '6.1';
+  	
+        cur['path.separator'] = ';';
+  	
+        cur['report.dir'] = 'reports';
+  	
+        cur['src.test'] = 'src';
+  	
+        cur['sun.arch.data.model'] = '64';
+  	
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\classes';
+  	
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\bin';
+  	
+        cur['sun.cpu.endian'] = 'little';
+  	
+        cur['sun.cpu.isalist'] = 'amd64';
+  	
+        cur['sun.desktop'] = 'windows';
+  	
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+  	
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.TestEvaluador filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\reports\\TEST-test.evaluador.TestEvaluador.xml crashfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junitvmwatcher8350141418774928135.properties propsfile=C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3\\junit1763136769242602748.properties';
+  	
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+  	
+        cur['sun.jnu.encoding'] = 'Cp1252';
+  	
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+  	
+        cur['sun.os.patch.level'] = '';
+  	
+        cur['test.dir'] = 'build/testclasses';
+  	
+        cur['user.country'] = 'ES';
+  	
+        cur['user.dir'] = 'C:\\Users\\Kaba\\Desktop\\Teleco\\Practica3';
+  	
+        cur['user.home'] = 'C:\\Users\\Kaba';
+  	
+        cur['user.language'] = 'es';
+  	
+        cur['user.name'] = 'Kaba';
+  	
+        cur['user.script'] = '';
+  	
+        cur['user.timezone'] = '';
+  	
+        cur['user.variant'] = '';
+  	</script><script language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica;	color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+        
+      </script>
+</HEAD>
+<body>
+<a name="#top"></a>
+<h1>Unit Test Results  TOMAS ROBLES </h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://jakarta.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="Failure">
+<td>20</td><td>2</td><td>0</td><td>90.00%</td><td>0.546</td>
+</tr>
+</table>
+<table width="95%" border="0">
+<tr>
+<td style="text-align: justify;">
+		Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+		</td>
+</tr>
+</table>
+<hr align="left" width="95%" size="1">
+<h2>Packages</h2>
+		Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+		<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#test.evaluador">test.evaluador</a></td><td>10</td><td>0</td><td>1</td><td>0.167</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#test.evaluador.Lexico">test.evaluador.Lexico</a></td><td>6</td><td>0</td><td>1</td><td>0.120</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#test.evaluador.Sintaxis">test.evaluador.Sintaxis</a></td><td>4</td><td>0</td><td>0</td><td>0.259</td>
+</tr>
+</table>
+<hr align="left" width="95%" size="1">
+<a name="#test.evaluador"></a>
+<h3>Package test.evaluador</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#TestEvaluador">TestEvaluador</a></td><td>10</td><td>0</td><td>1</td><td>0.167</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="#test.evaluador.Lexico"></a>
+<h3>Package test.evaluador.Lexico</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#TestParser">TestParser</a></td><td>6</td><td>0</td><td>1</td><td>0.120</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="#test.evaluador.Sintaxis"></a>
+<h3>Package test.evaluador.Sintaxis</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#TestAST">TestAST</a></td><td>2</td><td>0</td><td>0</td><td>0.149</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#TestEval">TestEval</a></td><td>2</td><td>0</td><td>0</td><td>0.110</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr align="left" width="95%" size="1">
+<a name="#TestAST"></a>
+<h3>TestCase TestAST</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testASTVacio</td><td>Success</td><td></td><td>0.033</td>
+</tr>
+<tr valign="top" class="">
+<td>testSumaEnteros</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.evaluador.Sintaxis.TestAST');">
+			        Properties &gt;&gt;
+			    </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="#TestEval"></a>
+<h3>TestCase TestEval</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testSumaEnterosDaUnEntero</td><td>Success</td><td></td><td>0.020</td>
+</tr>
+<tr valign="top" class="">
+<td>testSumaEnteros</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.evaluador.Sintaxis.TestEval');">
+			        Properties &gt;&gt;
+			    </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="#TestEvaluador"></a>
+<h3>TestCase TestEvaluador</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testIncorrectoCorcheteAbierto</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testENTEROPalabraReservada</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="Error">
+<td>testSacarSiNoHay</td><td>Failure</td><td>M&aacute;s Tokens de los que deber&iacute;a<code>
+<p></p>junit.framework.AssertionFailedError: M&aacute;s Tokens de los que deber&iacute;a<br>	at test.evaluador.Lexico.TestParser.testSacarSiNoHay(Unknown Source)<br>
+</code></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testREAL</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testENTERO</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testNoToken</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSumaEnteros</td><td>Success</td><td></td><td>0.033</td>
+</tr>
+<tr valign="top" class="">
+<td>testASTVacio</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSumaEnterosDaUnEntero</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSumaEnteros</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.evaluador.TestEvaluador');">
+			        Properties &gt;&gt;
+			    </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="#TestParser"></a>
+<h3>TestCase TestParser</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td>testSacarSiNoHay</td><td>Failure</td><td>M&aacute;s Tokens de los que deber&iacute;a<code>
+<p></p>junit.framework.AssertionFailedError: M&aacute;s Tokens de los que deber&iacute;a<br>	at test.evaluador.Lexico.TestParser.testSacarSiNoHay(Unknown Source)<br>
+</code></td><td>0.020</td>
+</tr>
+<tr valign="top" class="">
+<td>testNoToken</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testENTERO</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testREAL</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testENTEROPalabraReservada</td><td>Success</td><td></td><td>0.010</td>
+</tr>
+<tr valign="top" class="">
+<td>testIncorrectoCorcheteAbierto</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.evaluador.Lexico.TestParser');">
+			        Properties &gt;&gt;
+			    </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</HTML>

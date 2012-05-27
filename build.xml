@@ -1,0 +1,110 @@
+<project name="Practica2" default="reportTODO" basedir=".">
+    <property name="app.name"     value="evaluador" />
+    <property name="build.dir"    value="build/" />
+    <property name="test.dir"     value="build/testclasses" />
+    <property name="src.test"     value="src"/>
+    <property name="report.dir"   value="reports"/>
+    <property name="javadoc.dir"  value="doc"/>
+    <property name="junit"        value="C:/JUnit/junit-4.11.jar"/>
+    <property name="build.style"  value="etc/xsl"/>
+
+    <target name="compilaPruebas" >
+        <mkdir dir="${test.dir}"/>
+        <javac srcdir="${src.test}" destdir="${test.dir}">
+            <classpath>
+                <pathelement location="build/lib/${app.name}.jar" />
+		<pathelement path="${junit}"/>
+            </classpath>
+            <include name="**/*.java"/>
+        </javac>
+    </target>
+   
+    <target name="documentaPruebas">
+       <mkdir dir="${javadoc.dir}"/>
+       <javadoc destdir="${javadoc.dir}" source="${src.test}">
+            <classpath>
+                <pathelement location="build/lib/${app.name}.jar" />
+		<pathelement path="${junit}"/>
+            </classpath>
+	    <sourcepath>
+                <pathelement location="${src.test}"/>
+            </sourcepath>
+       </javadoc>
+    </target>
+   <target name="pruebaPorPartes" depends="compilaPruebas">
+      <echo message="***** Probando Practica1 con el Tester *****"/>
+      <delete dir="${report.dir}"/>
+      <mkdir dir="${report.dir}"/>
+      <junit fork="yes" printsummary="yes" haltonfailure="false" >
+         <classpath>
+            <pathelement location="${build.dir}/testclasses/" />
+            <pathelement path="${junit}"/>
+            <pathelement path="${build.dir}/lib/${app.name}.jar"/>
+         </classpath>
+
+	 <batchtest fork="yes" todir="${report.dir}">
+	    <fileset dir="${src.test}/">
+	      <include name="**/Test*.java"/>
+	      <exclude name="**/TestEvaluador.java"/>
+	    </fileset>
+	 </batchtest>
+         <formatter type="xml"/>
+      </junit>  
+   </target>
+
+   <target name="pruebaTODO" depends="compilaPruebas">
+      <echo message="***** Probando Practica1 con el Tester *****"/>
+      <delete dir="${report.dir}"/>
+      <mkdir dir="${report.dir}"/>
+      <junit fork="yes" printsummary="yes" haltonfailure="false" >
+         <classpath>
+            <pathelement location="${build.dir}/testclasses/" />
+            <pathelement path="${junit}"/>
+            <pathelement path="${build.dir}/lib/${app.name}.jar"/>
+         </classpath>
+
+	 <batchtest fork="yes" todir="${report.dir}">
+	    <fileset dir="${src.test}/">
+	      <include name="**/Test*.java"/>
+	    </fileset>
+	 </batchtest>
+         <formatter type="xml"/>
+      </junit>  
+   </target>
+
+   <!-- ************************************************* -->
+   <!-- ** REPORTS                                        -->
+   <!-- ************************************************* -->
+   <target name="reportPorPartes" depends="pruebaPorPartes">
+     <echo message="***** GENERATING HTML-reports de las Partes ... *****"/>
+     <mkdir dir="${report.dir}/html"/>
+     <junitreport todir="${report.dir}/html">
+       <fileset dir="${report.dir}/">
+         <include name="TEST-*.xml"/>
+       </fileset>
+              <report format="frames" styledir="${build.style}" todir="${report.dir}/html"/>
+     </junitreport>
+   </target>
+
+   <target name="reportTODO" depends="pruebaTODO">
+     <echo message="***** GENERATING HTML-reports de Todo  y de las Partes *****"/>
+     <mkdir dir="${report.dir}/html"/>
+     <junitreport todir="${report.dir}/html">
+       <fileset dir="${report.dir}/">
+         <include name="TEST-*.xml"/>
+       </fileset>
+              <report format="noframes" styledir="${build.style}" todir="${report.dir}/html"/>
+     </junitreport>
+   </target>
+
+   <!-- ************************************************* -->
+   <!-- ** TIDY                                    -->
+   <!-- ************************************************* -->
+   <target name="tidy">
+      <echo message="***** CLEANING... *****"/>
+      <delete dir="${test.dir}"/>
+      <delete dir="${report.dir}"/>
+      <delete dir="${javadoc.dir}"/>
+   </target>
+</project>
+

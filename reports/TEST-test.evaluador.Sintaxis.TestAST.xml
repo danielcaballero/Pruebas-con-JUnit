@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Kaba-PC" name="test.evaluador.Sintaxis.TestAST" tests="2" time="0.149" timestamp="2012-05-27T09:00:30">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="build.style" value="etc/xsl" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.type.Practica2" value="file" />
+    <property name="ant.home" value="C:\Ant" />
+    <property name="java.runtime.version" value="1.7.0_03-b05" />
+    <property name="user.name" value="Kaba" />
+    <property name="build.dir" value="build/" />
+    <property name="user.language" value="es" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
+    <property name="ant.project.default-target" value="reportTODO" />
+    <property name="ant.project.name" value="Practica2" />
+    <property name="java.version" value="1.7.0_03" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="ES" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="22.1-b02" />
+    <property name="report.dir" value="reports" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Ant\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Kaba" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="build/testclasses" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\jsbuilder;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\bin;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\SenchaSDKTools-2.0.0-Beta\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Autodesk\Alias2011\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win64;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Kaba\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kaba\Desktop\Teleco\mongodb-win32-x86_64-2.0.4\bin;C:\Program Files\nodejs\node_modules;C:\Users\Kaba\node_modules\.bin;C:\Users\Kaba\AppData\Roaming\npm;C:\Users\Kaba\node_modules\spark2\bin; C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;C:\Ant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestAST filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Kaba\Desktop\Teleco\Practica3\reports\TEST-test.evaluador.Sintaxis.TestAST.xml crashfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junitvmwatcher8847855791370179750.properties propsfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junit1539168932218044972.properties" />
+    <property name="java.class.path" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build\testclasses;C:\JUnit\junit-4.11.jar;C:\Users\Kaba\Desktop\Teleco\Practica3\build\lib\evaluador.jar;C:\JUnit;C:\Ant\lib\junit-4.8.1.jar;C:\Ant\lib\ant-launcher.jar;C:\Ant\lib\ant.jar;C:\Ant\lib\ant-junit.jar;C:\Ant\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="app.name" value="evaluador" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="src.test" value="src" />
+    <property name="java.io.tmpdir" value="C:\Users\Kaba\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ant.file.Practica2" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\Ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="reportTODO" />
+    <property name="javadoc.dir" value="doc" />
+    <property name="junit" value="C:/JUnit/junit-4.11.jar" />
+  </properties>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testASTVacio" time="0.033" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaEnteros" time="0.005" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
