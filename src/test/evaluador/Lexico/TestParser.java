@@ -53,14 +53,7 @@ public class TestParser extends TestCase{
          assertEquals("Probando " + s, tk.tipo(),MToken.TK_FIN_DE_ENTRADA );
       }  
 	  
-      public void testENTERO()throws Exception{
-         String s="23";
-         Reader fis = new StringReader(s);
-         Parser p = new Parser (fis);
-	     MToken tk = (MToken)p.nextElement();
-         assertEquals("Probando " + s, tk.tipo(),MToken.TK_ENTERO );
-      }  
-	  
+
 	 public void testREAL()throws Exception{
          String s="23.0";
          Reader fis = new StringReader(s);
@@ -697,10 +690,43 @@ public class TestParser extends TestCase{
 
 	  
 	  /*
-		Conjunto de pruebas simbolos del alfabeto
+		FIN-Conjunto de pruebas simbolos del alfabeto
 		*/
-
-
+		
+	  /*
+		INICIO-Conjunto de pruebas lexicas enteros
+		*/
+      public void testENTERO()throws Exception{
+         String s="23";
+         Reader fis = new StringReader(s);
+         Parser p = new Parser (fis);
+	     MToken tk = (MToken)p.nextElement();
+         assertEquals("Probando " + s, tk.tipo(),MToken.TK_ENTERO );
+      }  
+	  
+	  public void testMaxENTERO()throws Exception{
+         String s=Integer.toString(Integer.MAX_VALUE);
+         Reader fis = new StringReader(s);
+         Parser p = new Parser (fis);
+	     MToken tk = (MToken)p.nextElement();
+         assertEquals("Probando " + s, tk.tipo(),MToken.TK_ENTERO );
+      }  
+	  
+	  public void testMinENTERO()throws Exception{
+         String s=Integer.toString(Integer.MIN_VALUE);
+         Reader fis = new StringReader(s);
+         Parser p = new Parser (fis);
+	     MToken tk = (MToken)p.nextElement();
+         assertEquals("Probando " + s, tk.tipo(),MToken.TK_ENTERO );
+      }  
+	  
+	    /*
+		FIN-Conjunto de pruebas lexicas enteros
+		*/
+		
+		/*
+		INICIO-Conjunto de caracteres no permitidos
+		*/
       public void testIncorrectoCorcheteAbierto()throws Exception{
          String s="[";
          Reader fis = new StringReader(s);
@@ -708,7 +734,9 @@ public class TestParser extends TestCase{
 		 MToken tk = (MToken)p.nextElement();
          assertEquals("Probando " + s, tk.tipo(),MToken.TK_ERROR );
       }  
-   
+		/*
+		FIN-Conjunto de caracteres no permitidos
+		*/
    
    }
 
