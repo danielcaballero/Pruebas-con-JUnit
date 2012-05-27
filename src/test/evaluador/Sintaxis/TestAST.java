@@ -45,7 +45,7 @@ public class TestAST extends TestCase{
          Reader fis = new StringReader(s);
          Parser p = new Parser (fis);
          ArbolSintactico AS= new ArbolSintactico(p);
-	 assertTrue (true);
+		 assertTrue (true);
       }  
    
    }
