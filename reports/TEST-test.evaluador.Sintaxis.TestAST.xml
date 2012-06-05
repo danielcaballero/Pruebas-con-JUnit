@@ -1,84 +1,234 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Kaba-PC" name="test.evaluador.Sintaxis.TestAST" tests="2" time="0.149" timestamp="2012-05-27T09:00:30">
+<testsuite errors="1" failures="12" hostname="new-host-3.home" name="test.evaluador.Sintaxis.TestAST" tests="92" time="0.221" timestamp="2012-06-05T20:07:39">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vendor" value="Apple Inc." />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="build.style" value="etc/xsl" />
-    <property name="os.name" value="Windows 7" />
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
-    <property name="sun.desktop" value="windows" />
-    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
     <property name="ant.file.type.Practica2" value="file" />
-    <property name="ant.home" value="C:\Ant" />
-    <property name="java.runtime.version" value="1.7.0_03-b05" />
-    <property name="user.name" value="Kaba" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527" />
+    <property name="user.name" value="lolapriego" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
     <property name="build.dir" value="build/" />
-    <property name="user.language" value="es" />
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
     <property name="ant.project.default-target" value="reportTODO" />
     <property name="ant.project.name" value="Practica2" />
-    <property name="java.version" value="1.7.0_03" />
+    <property name="java.version" value="1.6.0_29" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
-    <property name="sun.cpu.isalist" value="amd64" />
-    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
     <property name="file.encoding.pkg" value="sun.io" />
-    <property name="file.separator" value="\" />
+    <property name="file.separator" value="/" />
     <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="java.class.version" value="51.0" />
-    <property name="user.country" value="ES" />
-    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="ant.file" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-    <property name="os.version" value="6.1" />
-    <property name="path.separator" value=";" />
-    <property name="java.vm.version" value="22.1-b02" />
+    <property name="ant.file" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+    <property name="os.version" value="10.7.2" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.4-b02-402" />
     <property name="report.dir" value="reports" />
-    <property name="user.variant" value="" />
-    <property name="ant.library.dir" value="C:\Ant\lib" />
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-    <property name="user.script" value="" />
-    <property name="user.home" value="C:\Users\Kaba" />
-    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/lolapriego" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
     <property name="test.dir" value="build/testclasses" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\jsbuilder;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\bin;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\SenchaSDKTools-2.0.0-Beta\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Autodesk\Alias2011\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win64;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Kaba\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kaba\Desktop\Teleco\mongodb-win32-x86_64-2.0.4\bin;C:\Program Files\nodejs\node_modules;C:\Users\Kaba\node_modules\.bin;C:\Users\Kaba\AppData\Roaming\npm;C:\Users\Kaba\node_modules\spark2\bin; C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;C:\Ant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;." />
-    <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestAST filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Kaba\Desktop\Teleco\Practica3\reports\TEST-test.evaluador.Sintaxis.TestAST.xml crashfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junitvmwatcher8847855791370179750.properties propsfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junit1539168932218044972.properties" />
-    <property name="java.class.path" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build\testclasses;C:\JUnit\junit-4.11.jar;C:\Users\Kaba\Desktop\Teleco\Practica3\build\lib\evaluador.jar;C:\JUnit;C:\Ant\lib\junit-4.8.1.jar;C:\Ant\lib\ant-launcher.jar;C:\Ant\lib\ant.jar;C:\Ant\lib\ant-junit.jar;C:\Ant\lib\ant-junit4.jar" />
-    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestAST filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/lolapriego/Escuela/Pruebas-con-JUnit/reports/TEST-test.evaluador.Sintaxis.TestAST.xml crashfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junitvmwatcher142934127903518005.properties propsfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit6911140292713339997.properties" />
+    <property name="java.class.path" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/testclasses:/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar:/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/lib/evaluador.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
     <property name="app.name" value="evaluador" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
-    <property name="java.vm.specification.version" value="1.7" />
+    <property name="java.vm.specification.version" value="1.0" />
     <property name="sun.cpu.endian" value="little" />
-    <property name="sun.os.patch.level" value="" />
+    <property name="sun.os.patch.level" value="unknown" />
     <property name="src.test" value="src" />
-    <property name="java.io.tmpdir" value="C:\Users\Kaba\AppData\Local\Temp\" />
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="ant.file.Practica2" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-    <property name="os.arch" value="amd64" />
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-    <property name="user.dir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.io.tmpdir" value="/var/folders/0r/d8hh8np12b7gh6jwfpbkgp500000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="mrj.build" value="11M3527" />
+    <property name="ant.file.Practica2" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="mrj.version" value="1070.1.6.0_29-402" />
+    <property name="user.dir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+    <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="basedir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-    <property name="ant.java.version" value="1.7" />
-    <property name="ant.core.lib" value="C:\Ant\lib\ant.jar" />
-    <property name="file.encoding" value="Cp1252" />
-    <property name="java.specification.version" value="1.7" />
+    <property name="basedir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="java.specification.version" value="1.6" />
     <property name="ant.project.invoked-targets" value="reportTODO" />
     <property name="javadoc.dir" value="doc" />
-    <property name="junit" value="C:/JUnit/junit-4.11.jar" />
+    <property name="junit" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar" />
   </properties>
-  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testASTVacio" time="0.033" />
-  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaEnteros" time="0.005" />
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testASTVacio" time="0.011" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaEnteros" time="0.0030" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testchequeoFaltaOp" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testchequeoFaltaParentesis" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testchequeoFaltaParentesisGrupo" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testsobraParent" time="0.0060">
+    <failure message="Se comprueba (()2+6)*5" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se comprueba (()2+6)*5
+	at test.evaluador.Sintaxis.TestAST.testsobraParent(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testvariosOpSeguidos" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testsobraOperadorIncremento" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testfaltanParam" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testfaltanParamOr" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisBienColocados" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoOP" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisComplementarios" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisComplementariosnoOP" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisComplementariosnoPar" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testNofinSentencia" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testNofinSentenciaOperador" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testPalabraReservadaIntOp" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaDouble" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublechequeoFaltaOp" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublechequeoFaltaParentesis" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublechequeoFaltaParentesisGrupo" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublesobraParent" time="0.0010">
+    <failure message="Se comprueba (()2.4+6.5)*5.3" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se comprueba (()2.4+6.5)*5.3
+	at test.evaluador.Sintaxis.TestAST.testDoublesobraParent(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublevariosOpSeguidos" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublesobraOperadorIncremento" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublefaltanParam" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublefaltanParamOr" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisBienColocados" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoOP" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisComplementarios" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisComplementariosnoOP" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisComplementariosnoPar" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleNofinSentencia" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleNofinSentenciaOperador" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePalabraReservadaIntOp" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoDoubleSobra" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaIntyDouble" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleSobraDecimal" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleFaltaDecimal" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleFaltaEntero" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testTresOpSeguidos" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testCuatroOpSeguidos" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleTresOpSeguidos" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleCuatroOpSeguidos" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoError" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoErrorComilla" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoErrorTriplepunto" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoErrorBarra" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testNombreVarError" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleNombreVarError" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios2" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios3" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios4" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios5" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios6" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios7" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios8" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios9" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios2" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios3" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios4" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios5" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios6" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios7" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios8" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios9" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosSuma" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivision" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosMultiplicacion" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionPrev" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosSuma" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivision" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosMultiplicacion" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionPrev" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosSumaGrupo" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo" time="0.0010" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosMultiplicacionGrupo" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo2" time="0.0020">
+    <failure message="Se comprueba que (2/(6+4)/(3+3))tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/(3+3)]))&gt; but was:&lt;(2/([6+4)/(3+3]))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (2/(6+4)/(3+3))tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/(3+3)]))&gt; but was:&lt;(2/([6+4)/(3+3]))&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosDivisionGrupo2(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosSumaGrupo" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionGrupo" time="0.0" />
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosMultiplicacionGrupo" time="0.0010">
+    <failure message="Se comprueba que (5.2*(6.2+1.1)*(7-2))tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*(7-2)]))&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2]))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (5.2*(6.2+1.1)*(7-2))tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*(7-2)]))&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2]))&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosMultiplicacionGrupo(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionPrevGrupo" time="0.0010">
+    <failure message="Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1))tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/(2.3-0.1)]))&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1]))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1))tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/(2.3-0.1)]))&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1]))&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosDivisionPrevGrupo(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosSumaGrupo2" time="0.0020">
+    <failure message="Se comprueba que ((6+4)*3+(2+3))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*3)]+(2+3))&gt; but was:&lt;(([6+4)*3]+(2+3))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((6+4)*3+(2+3))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*3)]+(2+3))&gt; but was:&lt;(([6+4)*3]+(2+3))&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosSumaGrupo2(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo4" time="0.0010">
+    <failure message="Se comprueba que ((6+4)*4/(2-1))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*4)]/(2-1))&gt; but was:&lt;(([6+4)*4]/(2-1))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((6+4)*4/(2-1))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*4)]/(2-1))&gt; but was:&lt;(([6+4)*4]/(2-1))&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosDivisionGrupo4(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosMultiplicacionGrupo2" time="0.0010">
+    <failure message="Se comprueba que ((7-2)*(6+4)*3)tiene los parÈntesis necesarios expected:&lt;((7-2)*([(6+4)*3)])&gt; but was:&lt;((7-2)*([6+4)*3])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((7-2)*(6+4)*3)tiene los parÈntesis necesarios expected:&lt;((7-2)*([(6+4)*3)])&gt; but was:&lt;((7-2)*([6+4)*3])&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosMultiplicacionGrupo2(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo3" time="0.0020">
+    <failure message="Se comprueba que (2/(6+4)/(3+3)*2^3)tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/((3+3)*(2^3)))])&gt; but was:&lt;(2/([6+4)/(3+3)*2^3])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (2/(6+4)/(3+3)*2^3)tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/((3+3)*(2^3)))])&gt; but was:&lt;(2/([6+4)/(3+3)*2^3])&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosDivisionGrupo3(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosSumaGrupo2" time="0.0010">
+    <error message="CreaAS: sobran operandos al finalizar" type="java.lang.Exception">java.lang.Exception: CreaAS: sobran operandos al finalizar
+	at evaluador.Sintaxis.ArbolSintactico.creaAS(Unknown Source)
+	at evaluador.Sintaxis.ArbolSintactico.&lt;init&gt;(Unknown Source)
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosSumaGrupo2(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionGrupo2" time="0.0020">
+    <failure message="Se comprueba que ((2.2+5.7)/(8.8-1.2)*4.4)tiene los parÈntesis necesarios expected:&lt;((2.2+5.7)/([(8.8-1.2)*4.4)])&gt; but was:&lt;((2.2+5.7)/([8.8-1.2)*4.4])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((2.2+5.7)/(8.8-1.2)*4.4)tiene los parÈntesis necesarios expected:&lt;((2.2+5.7)/([(8.8-1.2)*4.4)])&gt; but was:&lt;((2.2+5.7)/([8.8-1.2)*4.4])&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosDivisionGrupo2(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosMultiplicacionGrupo2" time="0.0010">
+    <failure message="Se comprueba que (5.2*(6.2+1.1)*(7-2)/6.6)tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*((7-2)/6.6))])&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2)/6.6])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (5.2*(6.2+1.1)*(7-2)/6.6)tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*((7-2)/6.6))])&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2)/6.6])&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosMultiplicacionGrupo2(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionPrevGrupo2" time="0.0020">
+    <failure message="Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1)*5.5)tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/((2.3-0.1)*5.5))])&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1)*5.5])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1)*5.5)tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/((2.3-0.1)*5.5))])&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1)*5.5])&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosDivisionPrevGrupo2(Unknown Source)
+</failure>
+  </testcase>
+  <system-out><![CDATA[((6+4)*2)
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

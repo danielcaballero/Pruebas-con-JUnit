@@ -1,108 +1,114 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="Kaba-PC" id="0" name="TestParser" package="test.evaluador.Lexico" tests="6" time="0.12" timestamp="2012-05-27T09:00:29">
+  <testsuite errors="0" failures="46" hostname="new-host-3.home" id="0" name="TestParser" package="test.evaluador.Lexico" tests="219" time="0.134" timestamp="2012-06-05T20:07:38">
       <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
+          <property name="java.vendor" value="Apple Inc." />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
 
           <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
 
           <property name="build.style" value="etc/xsl" />
 
-          <property name="os.name" value="Windows 7" />
+          <property name="os.name" value="Mac OS X" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
 
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
 
           <property name="ant.file.type.Practica2" value="file" />
 
-          <property name="ant.home" value="C:\Ant" />
+          <property name="ant.home" value="/usr/share/ant" />
 
-          <property name="java.runtime.version" value="1.7.0_03-b05" />
+          <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527" />
 
-          <property name="user.name" value="Kaba" />
+          <property name="user.name" value="lolapriego" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
 
           <property name="build.dir" value="build/" />
 
-          <property name="user.language" value="es" />
+          <property name="user.language" value="en" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="reportTODO" />
 
           <property name="ant.project.name" value="Practica2" />
 
-          <property name="java.version" value="1.7.0_03" />
+          <property name="java.version" value="1.6.0_29" />
 
           <property name="user.timezone" value="" />
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
 
-          <property name="sun.cpu.isalist" value="amd64" />
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
 
-          <property name="sun.jnu.encoding" value="Cp1252" />
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
 
           <property name="file.encoding.pkg" value="sun.io" />
 
-          <property name="file.separator" value="\" />
+          <property name="file.separator" value="/" />
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="java.class.version" value="51.0" />
+          <property name="java.class.version" value="50.0" />
 
-          <property name="user.country" value="ES" />
+          <property name="user.country" value="US" />
 
-          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
+          <property name="ant.file" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
 
-          <property name="os.version" value="6.1" />
+          <property name="os.version" value="10.7.2" />
 
-          <property name="path.separator" value=";" />
+          <property name="path.separator" value=":" />
 
-          <property name="java.vm.version" value="22.1-b02" />
+          <property name="java.vm.version" value="20.4-b02-402" />
 
           <property name="report.dir" value="reports" />
 
-          <property name="user.variant" value="" />
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
 
-          <property name="ant.library.dir" value="C:\Ant\lib" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
 
           <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
 
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
 
-          <property name="user.script" value="" />
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
 
-          <property name="user.home" value="C:\Users\Kaba" />
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
 
-          <property name="java.specification.vendor" value="Oracle Corporation" />
+          <property name="user.home" value="/Users/lolapriego" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
 
           <property name="test.dir" value="build/testclasses" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\jsbuilder;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\bin;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\SenchaSDKTools-2.0.0-Beta\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Autodesk\Alias2011\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win64;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Kaba\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kaba\Desktop\Teleco\mongodb-win32-x86_64-2.0.4\bin;C:\Program Files\nodejs\node_modules;C:\Users\Kaba\node_modules\.bin;C:\Users\Kaba\AppData\Roaming\npm;C:\Users\Kaba\node_modules\spark2\bin; C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;C:\Ant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;." />
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
 
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
+          <property name="java.vendor.url" value="http://www.apple.com/" />
 
-          <property name="java.vm.vendor" value="Oracle Corporation" />
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Lexico.TestParser filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Kaba\Desktop\Teleco\Practica3\reports\TEST-test.evaluador.Lexico.TestParser.xml crashfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junitvmwatcher75290547504549006.properties propsfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junit3270687171652805009.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Lexico.TestParser filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/lolapriego/Escuela/Pruebas-con-JUnit/reports/TEST-test.evaluador.Lexico.TestParser.xml crashfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junitvmwatcher7874063229049257624.properties propsfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit2821084682677133206.properties" />
 
-          <property name="java.class.path" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build\testclasses;C:\JUnit\junit-4.11.jar;C:\Users\Kaba\Desktop\Teleco\Practica3\build\lib\evaluador.jar;C:\JUnit;C:\Ant\lib\junit-4.8.1.jar;C:\Ant\lib\ant-launcher.jar;C:\Ant\lib\ant.jar;C:\Ant\lib\ant-junit.jar;C:\Ant\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/testclasses:/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar:/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/lib/evaluador.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
 
           <property name="app.name" value="evaluador" />
 
@@ -110,576 +116,1605 @@
 
           <property name="ant.file.type" value="file" />
 
-          <property name="java.vm.specification.version" value="1.7" />
+          <property name="java.vm.specification.version" value="1.0" />
 
           <property name="sun.cpu.endian" value="little" />
 
-          <property name="sun.os.patch.level" value="" />
+          <property name="sun.os.patch.level" value="unknown" />
 
           <property name="src.test" value="src" />
 
-          <property name="java.io.tmpdir" value="C:\Users\Kaba\AppData\Local\Temp\" />
+          <property name="java.io.tmpdir" value="/var/folders/0r/d8hh8np12b7gh6jwfpbkgp500000gn/T/" />
 
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
 
-          <property name="ant.file.Practica2" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
+          <property name="mrj.build" value="11M3527" />
 
-          <property name="os.arch" value="amd64" />
+          <property name="ant.file.Practica2" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
 
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+          <property name="os.arch" value="x86_64" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
 
-          <property name="user.dir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
 
-          <property name="line.separator" value="&#xd;&#xa;" />
+          <property name="mrj.version" value="1070.1.6.0_29-402" />
+
+          <property name="user.dir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="line.separator" value="&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
+          <property name="basedir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
 
-          <property name="ant.java.version" value="1.7" />
+          <property name="ant.java.version" value="1.6" />
 
-          <property name="ant.core.lib" value="C:\Ant\lib\ant.jar" />
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
 
-          <property name="file.encoding" value="Cp1252" />
+          <property name="file.encoding" value="MacRoman" />
 
-          <property name="java.specification.version" value="1.7" />
+          <property name="java.specification.version" value="1.6" />
 
           <property name="ant.project.invoked-targets" value="reportTODO" />
 
           <property name="javadoc.dir" value="doc" />
 
-          <property name="junit" value="C:/JUnit/junit-4.11.jar" />
+          <property name="junit" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar" />
 
       </properties>
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testSacarSiNoHay" time="0.02">
-          <failure message="Más Tokens de los que debería" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Más Tokens de los que debería
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorSuma" time="0.0020" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorResta" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorMultiplicacion" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorDivision" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorExponente" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorModulo" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorIgual" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorParentesis1" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorParentesis2" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorExclamacion" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorPunto" time="0.0020">
+          <failure message=". se evalua como operador" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: . se evalua como operador
+	at test.evaluador.Lexico.TestParser.testOperadorPunto(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testOperadorPuntoYComa" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testPrimeraLineaUnCaracter" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testPrimeraLineaVariosCaracter" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testSegundaLineaUnCaracter" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testSegundaLineaVariosCaracteres" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testPrimerCaracterDeLinea" time="0.0010">
+          <failure message="Probando 4 expected:&lt;4&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando 4 expected:&lt;4&gt; but was:&lt;0&gt;
+	at test.evaluador.Lexico.TestParser.testPrimerCaracterDeLinea(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testPrimerCaracterDeLineaSalto" time="0.0">
+          <failure message="Probando 4 expected:&lt;4&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando 4 expected:&lt;4&gt; but was:&lt;0&gt;
+	at test.evaluador.Lexico.TestParser.testPrimerCaracterDeLineaSalto(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testPrioridad" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testSacarSiNoHay" time="0.0">
+          <failure message="M·s Tokens de los que deberÌa" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: M·s Tokens de los que deberÌa
 	at test.evaluador.Lexico.TestParser.testSacarSiNoHay(Unknown Source)
 </failure>
 
       </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testSiguienteSiNoHay" time="0.0" />
 
       <testcase classname="test.evaluador.Lexico.TestParser" name="testNoToken" time="0.0" />
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testENTERO" time="0.0" />
-
       <testcase classname="test.evaluador.Lexico.TestParser" name="testREAL" time="0.0" />
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testENTEROPalabraReservada" time="0.01" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testENTEROPalabraReservada" time="0.0" />
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCorcheteAbierto" time="0.0" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testREALPalabraReservada" time="0.0" />
 
-      <system-out><![CDATA[]]></system-out>
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterAMin" time="0.0" />
 
-      <system-err><![CDATA[]]></system-err>
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterAMay" time="0.0" />
 
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="Kaba-PC" id="1" name="TestAST" package="test.evaluador.Sintaxis" tests="2" time="0.149" timestamp="2012-05-27T09:00:30">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterBMin" time="0.0" />
 
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterBMay" time="0.0" />
 
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterCMin" time="0.0" />
 
-          <property name="build.style" value="etc/xsl" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterCMay" time="0.0010" />
 
-          <property name="os.name" value="Windows 7" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterDMin" time="0.0" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterDMay" time="0.0" />
 
-          <property name="sun.desktop" value="windows" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterEMin" time="0.0" />
 
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterEMay" time="0.0" />
 
-          <property name="ant.file.type.Practica2" value="file" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterFMin" time="0.0" />
 
-          <property name="ant.home" value="C:\Ant" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterFMay" time="0.0" />
 
-          <property name="java.runtime.version" value="1.7.0_03-b05" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterGMin" time="0.0" />
 
-          <property name="user.name" value="Kaba" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterGMay" time="0.0" />
 
-          <property name="build.dir" value="build/" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterHMin" time="0.0" />
 
-          <property name="user.language" value="es" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterHMay" time="0.0" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterIMin" time="0.0" />
 
-          <property name="ant.project.default-target" value="reportTODO" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterIMay" time="0.0" />
 
-          <property name="ant.project.name" value="Practica2" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterJMin" time="0.0" />
 
-          <property name="java.version" value="1.7.0_03" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterJMay" time="0.0" />
 
-          <property name="user.timezone" value="" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterKMin" time="0.0" />
 
-          <property name="sun.arch.data.model" value="64" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterKMay" time="0.0" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterLMin" time="0.0" />
 
-          <property name="sun.cpu.isalist" value="amd64" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterLMay" time="0.0" />
 
-          <property name="sun.jnu.encoding" value="Cp1252" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterMMin" time="0.0" />
 
-          <property name="file.encoding.pkg" value="sun.io" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterMMay" time="0.0" />
 
-          <property name="file.separator" value="\" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracternMin" time="0.0" />
 
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="51.0" />
-
-          <property name="user.country" value="ES" />
-
-          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-
-          <property name="os.version" value="6.1" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="22.1-b02" />
-
-          <property name="report.dir" value="reports" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Ant\lib" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\Kaba" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="test.dir" value="build/testclasses" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\jsbuilder;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\bin;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\SenchaSDKTools-2.0.0-Beta\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Autodesk\Alias2011\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win64;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Kaba\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kaba\Desktop\Teleco\mongodb-win32-x86_64-2.0.4\bin;C:\Program Files\nodejs\node_modules;C:\Users\Kaba\node_modules\.bin;C:\Users\Kaba\AppData\Roaming\npm;C:\Users\Kaba\node_modules\spark2\bin; C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;C:\Ant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestAST filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Kaba\Desktop\Teleco\Practica3\reports\TEST-test.evaluador.Sintaxis.TestAST.xml crashfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junitvmwatcher8847855791370179750.properties propsfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junit1539168932218044972.properties" />
-
-          <property name="java.class.path" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build\testclasses;C:\JUnit\junit-4.11.jar;C:\Users\Kaba\Desktop\Teleco\Practica3\build\lib\evaluador.jar;C:\JUnit;C:\Ant\lib\junit-4.8.1.jar;C:\Ant\lib\ant-launcher.jar;C:\Ant\lib\ant.jar;C:\Ant\lib\ant-junit.jar;C:\Ant\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
-
-          <property name="app.name" value="evaluador" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="ant.file.type" value="file" />
-
-          <property name="java.vm.specification.version" value="1.7" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="src.test" value="src" />
-
-          <property name="java.io.tmpdir" value="C:\Users\Kaba\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="ant.file.Practica2" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-
-          <property name="ant.java.version" value="1.7" />
-
-          <property name="ant.core.lib" value="C:\Ant\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1252" />
-
-          <property name="java.specification.version" value="1.7" />
-
-          <property name="ant.project.invoked-targets" value="reportTODO" />
-
-          <property name="javadoc.dir" value="doc" />
-
-          <property name="junit" value="C:/JUnit/junit-4.11.jar" />
-
-      </properties>
-
-      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testASTVacio" time="0.033" />
-
-      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaEnteros" time="0.005" />
-
-      <system-out><![CDATA[]]></system-out>
-
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="Kaba-PC" id="2" name="TestEval" package="test.evaluador.Sintaxis" tests="2" time="0.11" timestamp="2012-05-27T09:00:31">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="build.style" value="etc/xsl" />
-
-          <property name="os.name" value="Windows 7" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.file.type.Practica2" value="file" />
-
-          <property name="ant.home" value="C:\Ant" />
-
-          <property name="java.runtime.version" value="1.7.0_03-b05" />
-
-          <property name="user.name" value="Kaba" />
-
-          <property name="build.dir" value="build/" />
-
-          <property name="user.language" value="es" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
-
-          <property name="ant.project.default-target" value="reportTODO" />
-
-          <property name="ant.project.name" value="Practica2" />
-
-          <property name="java.version" value="1.7.0_03" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1252" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="51.0" />
-
-          <property name="user.country" value="ES" />
-
-          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-
-          <property name="os.version" value="6.1" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="22.1-b02" />
-
-          <property name="report.dir" value="reports" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Ant\lib" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\Kaba" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="test.dir" value="build/testclasses" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\jsbuilder;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\bin;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\SenchaSDKTools-2.0.0-Beta\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Autodesk\Alias2011\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win64;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Kaba\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kaba\Desktop\Teleco\mongodb-win32-x86_64-2.0.4\bin;C:\Program Files\nodejs\node_modules;C:\Users\Kaba\node_modules\.bin;C:\Users\Kaba\AppData\Roaming\npm;C:\Users\Kaba\node_modules\spark2\bin; C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;C:\Ant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestEval filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Kaba\Desktop\Teleco\Practica3\reports\TEST-test.evaluador.Sintaxis.TestEval.xml crashfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junitvmwatcher6866222349553930433.properties propsfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junit7940227436036871749.properties" />
-
-          <property name="java.class.path" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build\testclasses;C:\JUnit\junit-4.11.jar;C:\Users\Kaba\Desktop\Teleco\Practica3\build\lib\evaluador.jar;C:\JUnit;C:\Ant\lib\junit-4.8.1.jar;C:\Ant\lib\ant-launcher.jar;C:\Ant\lib\ant.jar;C:\Ant\lib\ant-junit.jar;C:\Ant\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
-
-          <property name="app.name" value="evaluador" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="ant.file.type" value="file" />
-
-          <property name="java.vm.specification.version" value="1.7" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="src.test" value="src" />
-
-          <property name="java.io.tmpdir" value="C:\Users\Kaba\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="ant.file.Practica2" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-
-          <property name="ant.java.version" value="1.7" />
-
-          <property name="ant.core.lib" value="C:\Ant\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1252" />
-
-          <property name="java.specification.version" value="1.7" />
-
-          <property name="ant.project.invoked-targets" value="reportTODO" />
-
-          <property name="javadoc.dir" value="doc" />
-
-          <property name="junit" value="C:/JUnit/junit-4.11.jar" />
-
-      </properties>
-
-      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaEnterosDaUnEntero" time="0.02" />
-
-      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaEnteros" time="0.0" />
-
-      <system-out><![CDATA[]]></system-out>
-
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="1" hostname="Kaba-PC" id="3" name="TestEvaluador" package="test.evaluador" tests="10" time="0.167" timestamp="2012-05-27T09:00:31">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="build.style" value="etc/xsl" />
-
-          <property name="os.name" value="Windows 7" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.file.type.Practica2" value="file" />
-
-          <property name="ant.home" value="C:\Ant" />
-
-          <property name="java.runtime.version" value="1.7.0_03-b05" />
-
-          <property name="user.name" value="Kaba" />
-
-          <property name="build.dir" value="build/" />
-
-          <property name="user.language" value="es" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
-
-          <property name="ant.project.default-target" value="reportTODO" />
-
-          <property name="ant.project.name" value="Practica2" />
-
-          <property name="java.version" value="1.7.0_03" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1252" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="51.0" />
-
-          <property name="user.country" value="ES" />
-
-          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-
-          <property name="os.version" value="6.1" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="22.1-b02" />
-
-          <property name="report.dir" value="reports" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Ant\lib" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\Kaba" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="test.dir" value="build/testclasses" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\jsbuilder;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK\bin;C:\Users\Kaba\Desktop\Teleco\Sencha 2.0 SDK;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\SenchaSDKTools-2.0.0-Beta\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Autodesk\Alias2011\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win64;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Kaba\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kaba\Desktop\Teleco\mongodb-win32-x86_64-2.0.4\bin;C:\Program Files\nodejs\node_modules;C:\Users\Kaba\node_modules\.bin;C:\Users\Kaba\AppData\Roaming\npm;C:\Users\Kaba\node_modules\spark2\bin; C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;C:\Ant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.4\bin;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.TestEvaluador filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Kaba\Desktop\Teleco\Practica3\reports\TEST-test.evaluador.TestEvaluador.xml crashfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junitvmwatcher8350141418774928135.properties propsfile=C:\Users\Kaba\Desktop\Teleco\Practica3\junit1763136769242602748.properties" />
-
-          <property name="java.class.path" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build\testclasses;C:\JUnit\junit-4.11.jar;C:\Users\Kaba\Desktop\Teleco\Practica3\build\lib\evaluador.jar;C:\JUnit;C:\Ant\lib\junit-4.8.1.jar;C:\Ant\lib\ant-launcher.jar;C:\Ant\lib\ant.jar;C:\Ant\lib\ant-junit.jar;C:\Ant\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
-
-          <property name="app.name" value="evaluador" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="ant.file.type" value="file" />
-
-          <property name="java.vm.specification.version" value="1.7" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="src.test" value="src" />
-
-          <property name="java.io.tmpdir" value="C:\Users\Kaba\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="ant.file.Practica2" value="C:\Users\Kaba\Desktop\Teleco\Practica3\build.xml" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="C:\Users\Kaba\Desktop\Teleco\Practica3" />
-
-          <property name="ant.java.version" value="1.7" />
-
-          <property name="ant.core.lib" value="C:\Ant\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1252" />
-
-          <property name="java.specification.version" value="1.7" />
-
-          <property name="ant.project.invoked-targets" value="reportTODO" />
-
-          <property name="javadoc.dir" value="doc" />
-
-          <property name="junit" value="C:/JUnit/junit-4.11.jar" />
-
-      </properties>
-
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCorcheteAbierto" time="0.006" />
-
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testENTEROPalabraReservada" time="0.002" />
-
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testSacarSiNoHay" time="0.006">
-          <failure message="Más Tokens de los que debería" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Más Tokens de los que debería
-	at test.evaluador.Lexico.TestParser.testSacarSiNoHay(Unknown Source)
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracternMay" time="0.0">
+          <failure message="Probando — expected:&lt;20&gt; but was:&lt;5&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando — expected:&lt;20&gt; but was:&lt;5&gt;
+	at test.evaluador.Lexico.TestParser.testCaracternMay(Unknown Source)
 </failure>
 
       </testcase>
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testREAL" time="0.003" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterOMin" time="0.0" />
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testENTERO" time="0.001" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterOMay" time="0.0" />
 
-      <testcase classname="test.evaluador.Lexico.TestParser" name="testNoToken" time="0.001" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterPMin" time="0.0" />
 
-      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaEnteros" time="0.033" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterPMay" time="0.0010" />
 
-      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testASTVacio" time="0.0" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterQMin" time="0.0" />
 
-      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaEnterosDaUnEntero" time="0.0" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterQMay" time="0.0" />
 
-      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaEnteros" time="0.0" />
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterRMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterRMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterSMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterSMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterTMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterTMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterUMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterUMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterVMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterVMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterXMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterXMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterYMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterYMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterZMay" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterZMin" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter0" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter1" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter2" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter3" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter4" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter5" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter6" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter7" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter8" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracter9" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterAbreParentesis" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterCierraParentesis" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterSuma" time="0.0010">
+          <failure message="Probando + expected:&lt;13&gt; but was:&lt;8&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando + expected:&lt;13&gt; but was:&lt;8&gt;
+	at test.evaluador.Lexico.TestParser.testCaracterSuma(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterResta" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterAsterisco" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterSlash" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterModulo" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterCircunflejo" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterCierraExclamacion" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterIgual" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterPunto" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterPuntoYComa" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterBarraN" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterBarraT" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterBarraR" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testCaracterEspacio" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testENTERO" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testMaxENTERO" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testMinENTERO" time="0.0">
+          <failure message="Probando -2147483648 expected:&lt;14&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando -2147483648 expected:&lt;14&gt; but was:&lt;1&gt;
+	at test.evaluador.Lexico.TestParser.testMinENTERO(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso1" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso2" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso3" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso4" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso5" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso6" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso7" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso8" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso9" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso10" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso11" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso12" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso13" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso14" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso15" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso16" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso17" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso18" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso19" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso20" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso21" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso22" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso23" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso24" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso25" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso26" time="0.0010">
+          <failure message="Probando ß expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ß expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso26(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso27" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso28" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso29" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso30" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso31" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso32" time="0.0">
+          <failure message="Probando - expected:&lt;14&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando - expected:&lt;14&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso32(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso33" time="0.0010">
+          <failure message="Probando Æ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Æ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso33(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso34" time="0.0">
+          <failure message="Probando Ø expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ø expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso34(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso35" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso36" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso37" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso38" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso39" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso40" time="0.0010">
+          <failure message="Probando µ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando µ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso40(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso41" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso42" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso43" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso44" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso45" time="0.0">
+          <failure message="Probando π expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando π expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso45(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso46" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso47" time="0.0010">
+          <failure message="Probando ª expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ª expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso47(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso48" time="0.0010">
+          <failure message="Probando º expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando º expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso48(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso49" time="0.0010">
+          <failure message="Probando Ω expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ω expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso49(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso50" time="0.0010">
+          <failure message="Probando æ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando æ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso50(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCorcheteAbierto" time="0.0010">
+          <failure message="Probando ø expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ø expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCorcheteAbierto(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso52" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso53" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso54" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso55" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso56" time="0.0">
+          <failure message="Probando ƒ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ƒ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso56(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso57" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso58" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso59" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso60" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso61" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso62" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso63" time="0.0010">
+          <failure message="Probando À expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando À expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso63(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso64" time="0.0">
+          <failure message="Probando Ã expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ã expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso64(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso65" time="0.0">
+          <failure message="Probando Õ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Õ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso65(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso66" time="0.0010">
+          <failure message="Probando Œ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Œ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso66(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso67" time="0.0">
+          <failure message="Probando œ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando œ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso67(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso68" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso69" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso70" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso71" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso72" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso73" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso74" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso75multiplicacion" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso76" time="0.0010">
+          <failure message="Probando ÿ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ÿ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso76(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso77" time="0.0010">
+          <failure message="Probando Ÿ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ÿ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso77(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso78" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso79" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso80" time="0.0010" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso81" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso82" time="0.0010">
+          <failure message="Probando ﬁ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ﬁ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso82(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso83" time="0.0">
+          <failure message="Probando ﬂ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ﬂ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso83(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso84" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso85" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso87" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso88" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso89" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso90" time="0.0">
+          <failure message="Probando Â expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Â expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso90(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso91" time="0.0">
+          <failure message="Probando Ê expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ê expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso91(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso92" time="0.0">
+          <failure message="Probando Á expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Á expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso92(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso93" time="0.0010">
+          <failure message="Probando Ë expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ë expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso93(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso94" time="0.0">
+          <failure message="Probando È expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando È expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso94(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso95" time="0.0010">
+          <failure message="Probando Í expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Í expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso95(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso96" time="0.0">
+          <failure message="Probando Î expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Î expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso96(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso97" time="0.0010">
+          <failure message="Probando Ï expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ï expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso97(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso98" time="0.0">
+          <failure message="Probando Ì expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ì expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso98(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso99" time="0.0010">
+          <failure message="Probando Ó expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ó expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso99(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso100" time="0.0">
+          <failure message="Probando Ô expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ô expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso100(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso101" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso102" time="0.0">
+          <failure message="Probando Ò expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ò expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso102(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso103" time="0.0010">
+          <failure message="Probando Ú expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ú expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso103(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso104" time="0.0010">
+          <failure message="Probando Û expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Û expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso104(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso105" time="0.0">
+          <failure message="Probando Ù expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando Ù expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso105(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso106" time="0.0">
+          <failure message="Probando ı expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ı expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso106(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso107" time="0.0010">
+          <failure message="Probando ˆ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ˆ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso107(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso108" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso109" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso110" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso112" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso113" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso114" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso115" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso116" time="0.0" />
+
+      <testcase classname="test.evaluador.Lexico.TestParser" name="testIncorrectoCaracterIso117" time="0.0">
+          <failure message="Probando ˇ expected:&lt;5&gt; but was:&lt;20&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Probando ˇ expected:&lt;5&gt; but was:&lt;20&gt;
+	at test.evaluador.Lexico.TestParser.testIncorrectoCaracterIso117(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="12" hostname="new-host-3.home" id="1" name="TestAST" package="test.evaluador.Sintaxis" tests="92" time="0.221" timestamp="2012-06-05T20:07:39">
+      <properties>
+          <property name="java.vendor" value="Apple Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.style" value="etc/xsl" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.file.type.Practica2" value="file" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527" />
+
+          <property name="user.name" value="lolapriego" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
+
+          <property name="build.dir" value="build/" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+
+          <property name="ant.project.default-target" value="reportTODO" />
+
+          <property name="ant.project.name" value="Practica2" />
+
+          <property name="java.version" value="1.6.0_29" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+
+          <property name="os.version" value="10.7.2" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="20.4-b02-402" />
+
+          <property name="report.dir" value="reports" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="user.home" value="/Users/lolapriego" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="test.dir" value="build/testclasses" />
+
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+
+          <property name="java.vendor.url" value="http://www.apple.com/" />
+
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestAST filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/lolapriego/Escuela/Pruebas-con-JUnit/reports/TEST-test.evaluador.Sintaxis.TestAST.xml crashfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junitvmwatcher142934127903518005.properties propsfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit6911140292713339997.properties" />
+
+          <property name="java.class.path" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/testclasses:/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar:/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/lib/evaluador.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
+
+          <property name="app.name" value="evaluador" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="src.test" value="src" />
+
+          <property name="java.io.tmpdir" value="/var/folders/0r/d8hh8np12b7gh6jwfpbkgp500000gn/T/" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+
+          <property name="mrj.build" value="11M3527" />
+
+          <property name="ant.file.Practica2" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+
+          <property name="mrj.version" value="1070.1.6.0_29-402" />
+
+          <property name="user.dir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="MacRoman" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="ant.project.invoked-targets" value="reportTODO" />
+
+          <property name="javadoc.dir" value="doc" />
+
+          <property name="junit" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar" />
+
+      </properties>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testASTVacio" time="0.011" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaEnteros" time="0.0030" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testchequeoFaltaOp" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testchequeoFaltaParentesis" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testchequeoFaltaParentesisGrupo" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testsobraParent" time="0.0060">
+          <failure message="Se comprueba (()2+6)*5" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se comprueba (()2+6)*5
+	at test.evaluador.Sintaxis.TestAST.testsobraParent(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testvariosOpSeguidos" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testsobraOperadorIncremento" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testfaltanParam" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testfaltanParamOr" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisBienColocados" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoOP" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisComplementarios" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisComplementariosnoOP" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisComplementariosnoPar" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testNofinSentencia" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testNofinSentenciaOperador" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testPalabraReservadaIntOp" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaDouble" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublechequeoFaltaOp" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublechequeoFaltaParentesis" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublechequeoFaltaParentesisGrupo" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublesobraParent" time="0.0010">
+          <failure message="Se comprueba (()2.4+6.5)*5.3" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se comprueba (()2.4+6.5)*5.3
+	at test.evaluador.Sintaxis.TestAST.testDoublesobraParent(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublevariosOpSeguidos" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublesobraOperadorIncremento" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublefaltanParam" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublefaltanParamOr" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisBienColocados" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoOP" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisComplementarios" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisComplementariosnoOP" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisComplementariosnoPar" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleNofinSentencia" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleNofinSentenciaOperador" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePalabraReservadaIntOp" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoDoubleSobra" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testSumaIntyDouble" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleSobraDecimal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleFaltaDecimal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleFaltaEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testTresOpSeguidos" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testCuatroOpSeguidos" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleTresOpSeguidos" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleCuatroOpSeguidos" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoError" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoErrorComilla" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoErrorTriplepunto" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoublePuntoErrorBarra" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testNombreVarError" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleNombreVarError" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios2" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios3" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios4" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios5" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios6" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios7" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios8" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNoNecesarios9" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios2" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios3" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios4" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios5" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios6" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios7" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios8" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNoNecesarios9" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosSuma" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivision" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosMultiplicacion" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionPrev" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosSuma" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivision" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosMultiplicacion" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionPrev" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosSumaGrupo" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosMultiplicacionGrupo" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo2" time="0.0020">
+          <failure message="Se comprueba que (2/(6+4)/(3+3))tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/(3+3)]))&gt; but was:&lt;(2/([6+4)/(3+3]))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (2/(6+4)/(3+3))tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/(3+3)]))&gt; but was:&lt;(2/([6+4)/(3+3]))&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosDivisionGrupo2(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosSumaGrupo" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionGrupo" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosMultiplicacionGrupo" time="0.0010">
+          <failure message="Se comprueba que (5.2*(6.2+1.1)*(7-2))tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*(7-2)]))&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2]))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (5.2*(6.2+1.1)*(7-2))tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*(7-2)]))&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2]))&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosMultiplicacionGrupo(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionPrevGrupo" time="0.0010">
+          <failure message="Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1))tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/(2.3-0.1)]))&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1]))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1))tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/(2.3-0.1)]))&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1]))&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosDivisionPrevGrupo(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosSumaGrupo2" time="0.0020">
+          <failure message="Se comprueba que ((6+4)*3+(2+3))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*3)]+(2+3))&gt; but was:&lt;(([6+4)*3]+(2+3))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((6+4)*3+(2+3))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*3)]+(2+3))&gt; but was:&lt;(([6+4)*3]+(2+3))&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosSumaGrupo2(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo4" time="0.0010">
+          <failure message="Se comprueba que ((6+4)*4/(2-1))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*4)]/(2-1))&gt; but was:&lt;(([6+4)*4]/(2-1))&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((6+4)*4/(2-1))tiene los parÈntesis necesarios expected:&lt;(([(6+4)*4)]/(2-1))&gt; but was:&lt;(([6+4)*4]/(2-1))&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosDivisionGrupo4(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosMultiplicacionGrupo2" time="0.0010">
+          <failure message="Se comprueba que ((7-2)*(6+4)*3)tiene los parÈntesis necesarios expected:&lt;((7-2)*([(6+4)*3)])&gt; but was:&lt;((7-2)*([6+4)*3])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((7-2)*(6+4)*3)tiene los parÈntesis necesarios expected:&lt;((7-2)*([(6+4)*3)])&gt; but was:&lt;((7-2)*([6+4)*3])&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosMultiplicacionGrupo2(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testParentesisNecesariosDivisionGrupo3" time="0.0020">
+          <failure message="Se comprueba que (2/(6+4)/(3+3)*2^3)tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/((3+3)*(2^3)))])&gt; but was:&lt;(2/([6+4)/(3+3)*2^3])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (2/(6+4)/(3+3)*2^3)tiene los parÈntesis necesarios expected:&lt;(2/([(6+4)/((3+3)*(2^3)))])&gt; but was:&lt;(2/([6+4)/(3+3)*2^3])&gt;
+	at test.evaluador.Sintaxis.TestAST.testParentesisNecesariosDivisionGrupo3(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosSumaGrupo2" time="0.0010">
+          <error message="CreaAS: sobran operandos al finalizar" type="java.lang.Exception">java.lang.Exception: CreaAS: sobran operandos al finalizar
+	at evaluador.Sintaxis.ArbolSintactico.creaAS(Unknown Source)
+	at evaluador.Sintaxis.ArbolSintactico.&lt;init&gt;(Unknown Source)
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosSumaGrupo2(Unknown Source)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionGrupo2" time="0.0020">
+          <failure message="Se comprueba que ((2.2+5.7)/(8.8-1.2)*4.4)tiene los parÈntesis necesarios expected:&lt;((2.2+5.7)/([(8.8-1.2)*4.4)])&gt; but was:&lt;((2.2+5.7)/([8.8-1.2)*4.4])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que ((2.2+5.7)/(8.8-1.2)*4.4)tiene los parÈntesis necesarios expected:&lt;((2.2+5.7)/([(8.8-1.2)*4.4)])&gt; but was:&lt;((2.2+5.7)/([8.8-1.2)*4.4])&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosDivisionGrupo2(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosMultiplicacionGrupo2" time="0.0010">
+          <failure message="Se comprueba que (5.2*(6.2+1.1)*(7-2)/6.6)tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*((7-2)/6.6))])&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2)/6.6])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (5.2*(6.2+1.1)*(7-2)/6.6)tiene los parÈntesis necesarios expected:&lt;(5.2*([(6.2+1.1)*((7-2)/6.6))])&gt; but was:&lt;(5.2*([6.2+1.1)*(7-2)/6.6])&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosMultiplicacionGrupo2(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestAST" name="testDoubleParentesisNecesariosDivisionPrevGrupo2" time="0.0020">
+          <failure message="Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1)*5.5)tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/((2.3-0.1)*5.5))])&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1)*5.5])&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Se comprueba que (1.3/(2.3+3.3)/(2.3-0.1)*5.5)tiene los parÈntesis necesarios expected:&lt;(1.3/([(2.3+3.3)/((2.3-0.1)*5.5))])&gt; but was:&lt;(1.3/([2.3+3.3)/(2.3-0.1)*5.5])&gt;
+	at test.evaluador.Sintaxis.TestAST.testDoubleParentesisNecesariosDivisionPrevGrupo2(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[((6+4)*2)
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="new-host-3.home" id="2" name="TestEval" package="test.evaluador.Sintaxis" tests="49" time="0.061" timestamp="2012-06-05T20:07:40">
+      <properties>
+          <property name="java.vendor" value="Apple Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.style" value="etc/xsl" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.file.type.Practica2" value="file" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527" />
+
+          <property name="user.name" value="lolapriego" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
+
+          <property name="build.dir" value="build/" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+
+          <property name="ant.project.default-target" value="reportTODO" />
+
+          <property name="ant.project.name" value="Practica2" />
+
+          <property name="java.version" value="1.6.0_29" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+
+          <property name="os.version" value="10.7.2" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="20.4-b02-402" />
+
+          <property name="report.dir" value="reports" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="user.home" value="/Users/lolapriego" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="test.dir" value="build/testclasses" />
+
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+
+          <property name="java.vendor.url" value="http://www.apple.com/" />
+
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.Sintaxis.TestEval filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/lolapriego/Escuela/Pruebas-con-JUnit/reports/TEST-test.evaluador.Sintaxis.TestEval.xml crashfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junitvmwatcher7522778121470119024.properties propsfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit1849583816490665048.properties" />
+
+          <property name="java.class.path" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/testclasses:/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar:/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/lib/evaluador.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
+
+          <property name="app.name" value="evaluador" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="src.test" value="src" />
+
+          <property name="java.io.tmpdir" value="/var/folders/0r/d8hh8np12b7gh6jwfpbkgp500000gn/T/" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+
+          <property name="mrj.build" value="11M3527" />
+
+          <property name="ant.file.Practica2" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+
+          <property name="mrj.version" value="1070.1.6.0_29-402" />
+
+          <property name="user.dir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="MacRoman" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="ant.project.invoked-targets" value="reportTODO" />
+
+          <property name="javadoc.dir" value="doc" />
+
+          <property name="junit" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar" />
+
+      </properties>
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaEnterosDaUnEntero" time="0.0080" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaEnteros" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testRestaEnterosDaUnEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testRestaEnteros" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMultiplicaEnterosDaUnEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMultiplicaEnteros" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDivideEnterosDaUnEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDivideEnteros" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testModuloEnterosDaUnEntero" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testModuloEnteros" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaRealesDaUnReal" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaReales" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testRestaRealesDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testRestaReales" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMultiplicaRealesDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMultiplicaReales" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDivideRealesDaUnReal" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDivideReales" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExponenciaRealesDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExponenciaReales" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaRealMasEnteroDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testSumaRealMasEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testRestaRealYEnteroDaUnReal" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testRestaRealYEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMultiplicaRealYEnteroDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMultiplicaRealYEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDivideRealYEnteroDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDivideRealYEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExponenciaRealYEnteroDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExponenciaRealYEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExponenciaEnteroYRealDaUnReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExponenciaEnteroYReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMenosUnarioReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testMenosUnarioEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExclamacionUnarioEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testAgrupaExponentesCorrecto" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExpresionComplejaTodos" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testExpresionPrioridadesAlReves" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testEvaluaDosExpresiones" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testAsignaExpresionReal" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testAsignaExpresionEntera" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDevuelveValorVariableEntera" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDevuelveValorVariableReal" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testAsignaSinDeclararReal" time="0.0010" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testAsignaSinDeclararEntero" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDeclaraEnteroYaDeclarado" time="0.0030">
+          <failure message="Deja declarar dos veces la misma variable entera x: 3" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Deja declarar dos veces la misma variable entera x: 3
+	at test.evaluador.Sintaxis.TestEval.testDeclaraEnteroYaDeclarado(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDeclaraRealYaDeclarado" time="0.0">
+          <failure message="Deja declarar dos veces la misma variable real x: 3.0" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Deja declarar dos veces la misma variable real x: 3.0
+	at test.evaluador.Sintaxis.TestEval.testDeclaraRealYaDeclarado(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDeclaraRealNoInicializado" time="0.0" />
+
+      <testcase classname="test.evaluador.Sintaxis.TestEval" name="testDeclaraEnteroNoInicializado" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="new-host-3.home" id="3" name="TestEvaluador" package="test.evaluador" tests="1" time="0.0" timestamp="2012-06-05T20:07:40">
+      <properties>
+          <property name="java.vendor" value="Apple Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.style" value="etc/xsl" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.file.type.Practica2" value="file" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527" />
+
+          <property name="user.name" value="lolapriego" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
+
+          <property name="build.dir" value="build/" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+
+          <property name="ant.project.default-target" value="reportTODO" />
+
+          <property name="ant.project.name" value="Practica2" />
+
+          <property name="java.version" value="1.6.0_29" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+
+          <property name="os.version" value="10.7.2" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="20.4-b02-402" />
+
+          <property name="report.dir" value="reports" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="user.home" value="/Users/lolapriego" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="test.dir" value="build/testclasses" />
+
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+
+          <property name="java.vendor.url" value="http://www.apple.com/" />
+
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.evaluador.TestEvaluador filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/lolapriego/Escuela/Pruebas-con-JUnit/reports/TEST-test.evaluador.TestEvaluador.xml crashfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junitvmwatcher744134015664292392.properties propsfile=/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit6422811410942425863.properties" />
+
+          <property name="java.class.path" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/testclasses:/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar:/Users/lolapriego/Escuela/Pruebas-con-JUnit/build/lib/evaluador.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
+
+          <property name="app.name" value="evaluador" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="src.test" value="src" />
+
+          <property name="java.io.tmpdir" value="/var/folders/0r/d8hh8np12b7gh6jwfpbkgp500000gn/T/" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+
+          <property name="mrj.build" value="11M3527" />
+
+          <property name="ant.file.Practica2" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/build.xml" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+
+          <property name="mrj.version" value="1070.1.6.0_29-402" />
+
+          <property name="user.dir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="MacRoman" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="ant.project.invoked-targets" value="reportTODO" />
+
+          <property name="javadoc.dir" value="doc" />
+
+          <property name="junit" value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar" />
+
+      </properties>
+
+      <error message="test/evaluador/TestEvaluador : Unsupported major.minor version 51.0" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: test/evaluador/TestEvaluador : Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+</error>
 
       <system-out><![CDATA[]]></system-out>
 

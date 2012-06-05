@@ -5,7 +5,7 @@
     <property name="src.test"     value="src"/>
     <property name="report.dir"   value="reports"/>
     <property name="javadoc.dir"  value="doc"/>
-    <property name="junit"        value="C:\Ant\lib\junit-4.8.1.jar"/>
+    <property name="junit"        value="/Users/lolapriego/Escuela/Pruebas-con-JUnit/junit-4.10.jar"/>
     <property name="build.style"  value="etc/xsl"/>
 
     <target name="compilaPruebas" >
@@ -18,7 +18,7 @@
             <include name="**/*.java"/>
         </javac>
     </target>
-   
+
     <target name="documentaPruebas">
        <mkdir dir="${javadoc.dir}"/>
        <javadoc destdir="${javadoc.dir}" source="${src.test}">
@@ -49,7 +49,7 @@
 	    </fileset>
 	 </batchtest>
          <formatter type="xml"/>
-      </junit>  
+      </junit>
    </target>
 
    <target name="pruebaTODO" depends="compilaPruebas">
@@ -69,7 +69,7 @@
 	    </fileset>
 	 </batchtest>
          <formatter type="xml"/>
-      </junit>  
+      </junit>
    </target>
 
    <!-- ************************************************* -->
